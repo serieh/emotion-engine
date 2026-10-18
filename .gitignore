@@ -46,3 +46,5 @@ models/scalers/*.joblib
 # Release Archives (Uploaded to GitHub Releases)
 releases/**/*.tar.gz
 releases/**/*.zip
+models/
+releases/
