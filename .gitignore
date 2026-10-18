@@ -34,3 +34,15 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Pre-trained Model Binary Files (Published via GitHub Releases)
+models/*.joblib
+models/encoders/*.joblib
+models/scalers/*.joblib
+!models/.gitkeep
+!models/encoders/.gitkeep
+!models/scalers/.gitkeep
+
+# Release Archives (Uploaded to GitHub Releases)
+releases/**/*.tar.gz
+releases/**/*.zip
