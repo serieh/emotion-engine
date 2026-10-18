@@ -76,15 +76,9 @@ emotion-engine/
 ├── data/
 │   ├── train.csv                # Primary training dataset
 │   └── test.csv                 # Holdout test dataset
-├── models/
-│   ├── .gitkeep                 # Model artifact destination directory
-│   ├── encoders/.gitkeep
-│   └── scalers/.gitkeep
-├── releases/
-│   └── v1.0.0/
-│       ├── README.md            # Release asset details and instructions
-│       ├── SHA256SUMS           # Integrity checksums for model bundles
-│       └── emotion_engine_models_v1.0.0.tar.gz  # Release artifact bundle
+├── models/                      # Local model destination directory (untracked in git)
+├── releases/                    # Local release packages for GitHub Releases (untracked in git)
+
 
 ├── notebooks/
 │   ├── model_trainer.ipynb      # Training and exploratory data analysis notebook
